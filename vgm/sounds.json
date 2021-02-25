@@ -1,6 +1,6 @@
 {
     "easy" : [
-        {"title":"Hotline Miami 2", "src":"hotline.mp3"},
+        {"title":"Hotline Miami 2", "src":"hotline.mp3", "alt":["Hotline Miami 2: Wrong Number"]},
         {"title":"Persona 5", "src":"persona.mp3"}
     ],
     "medium" : [

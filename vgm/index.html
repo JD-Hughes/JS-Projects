@@ -11,15 +11,12 @@
 
 <body>
     <h1>VIDEO GAME MUSIC QUIZ</h1>
-    <input type="text">
-    <audio controls src="bin/persona.mp3" preload="auto"></audio>
-
-    <article>
+    <div class="container">
         <div class="cont">
             <h3>100</h3>
-            <input type="text" style="height: 50px; width: 450px; background: rgb(114, 114, 114); font-size: 40px; color: white;">
+            <input type="text" class="answer-box" id="input-100" onchange="checkAnswer(100)" oninput="style.color = 'white'">
         </div>
-        <audio id="music" preload="true">
+        <audio id="music" preload="auto">
             <source src="bin/hotline.mp3">
         </audio>
         <div id="audioplayer">
@@ -28,8 +25,10 @@
                 <div id="playhead"></div>
             </div>
         </div>
-    </article>
-    <script src="player.js"></script>
+    </div>
+    <script src="script/player.js"></script>
+    <script src="script/fuse.js"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>

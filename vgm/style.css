@@ -14,32 +14,48 @@ h1 {
     text-align: center;
 }
 
-article {
-    width: 50%;
-    height: auto;
-    top: 40px;
-    left: 0;
-    bottom: 0;
-    right: 0;
+audio { 
+    width: 300px; 
+    box-shadow: 5px 5px 20px rgba(0,0, 0, 0.4);
+    border-radius: 90px;
+  }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: min-content;
+    height: min-content;
     margin: auto;
-    text-align: center;
-    padding: 50px 5%;
+    padding: 30px;
     box-sizing: border-box;
     box-shadow: 0 0 21px 0px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
 }
 
+.answer-box {
+    height: 30px;
+    width: 300px;
+    background: rgb(114, 114, 114);
+    font-size: 25px;
+    color: white;
+    margin-left: 15px;
+    border: none;
+    border-radius: 3px;
+}
+
 .cont {
-    margin-bottom: 10px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    margin-bottom: 10px;
 }
 
 .cont h3 {
     font-family: 'Lato';
-    font-size: 50px;
-    margin: 0 0 10px 0;
+    font-size: 30px;
+    margin: 0;
     color: #ccc;
     justify-self: center;
     align-self: center;
@@ -52,12 +68,12 @@ article {
 }
 
 #audioplayer {
-    width: 100%;
+    width: 385px;
     height: 60px;
-    margin: 5px auto auto auto;
     border: solid;
     border-color: rgba(255, 255, 255, 0.3);
     background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 5px;
 }
 
 #pButton {
@@ -80,7 +96,7 @@ article {
 }
 
 #timeline {
-    width: 90%;
+    width: 300px;
     height: 20px;
     margin-top: 20px;
     float: left;
