@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>VGM Quiz</title>
+</head>
+
+<body>
+    <h1>VIDEO GAME MUSIC QUIZ</h1>
+    <input type="text">
+    <audio controls src="bin/persona.mp3" preload="auto"></audio>
+
+    <article>
+        <div class="cont">
+            <h3>100</h3>
+            <input type="text" style="height: 50px; width: 450px; background: rgb(114, 114, 114); font-size: 40px; color: white;">
+        </div>
+        <audio id="music" preload="true">
+            <source src="bin/hotline.mp3">
+        </audio>
+        <div id="audioplayer">
+            <button id="pButton" class="play"></button>
+            <div id="timeline">
+                <div id="playhead"></div>
+            </div>
+        </div>
+    </article>
+    <script src="player.js"></script>
+</body>
+
+</html>
