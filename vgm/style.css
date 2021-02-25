@@ -72,11 +72,11 @@ article {
 }
 
 .play {
-    background: url('http://www.alexkatz.me/codepen/img/play.png');
+    background: url('bin/img/play.png');
 }
 
 .pause {
-    background: url('http://www.alexkatz.me/codepen/img/pause.png');
+    background: url('bin/img/pause.png');
 }
 
 #timeline {
