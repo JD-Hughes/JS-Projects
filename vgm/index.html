@@ -6,29 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>VGM Quiz</title>
-</head>
-
-<body>
-    <h1>VIDEO GAME MUSIC QUIZ</h1>
-    <div class="container">
-        <div class="cont">
-            <h3>100</h3>
-            <input type="text" class="answer-box" id="input-100" onchange="checkAnswer(100)" oninput="style.color = 'white'">
-        </div>
-        <audio id="music" preload="auto">
-            <source src="bin/hotline.mp3">
-        </audio>
-        <div id="audioplayer">
-            <button id="pButton" class="play"></button>
-            <div id="timeline">
-                <div id="playhead"></div>
-            </div>
-        </div>
-    </div>
-    <script src="script/player.js"></script>
+    <title>Video Game Music Quiz</title>
     <script src="script/fuse.js"></script>
     <script src="app.js"></script>
-</body>
+    <script src="script/audiojs/audio.min.js"></script>
+</head>
 
+<body id="main">
+    <h1>Video Game Music Quiz</h1>
+    <h4 style="color: grey; text-align: center;">Updated: 01/03/2021</h4>
+    <div class="slidecontainer">
+        <h2 id="scoreTotal"></h2>
+        <h3>Volume</h3>
+        <input type="range" min="0" max="100" value="100" class="slider" id="volumeSlider" onchange="adjustVolume()">
+    </div>
+</body>
 </html>

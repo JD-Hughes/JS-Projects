@@ -1,9 +1,58 @@
 {
-    "easy" : [
-        {"title":"Hotline Miami 2", "src":"hotline.mp3", "alt":["Hotline Miami 2: Wrong Number"]},
-        {"title":"Persona 5", "src":"persona.mp3"}
-    ],
-    "medium" : [
-        {"title":"Fruit Ninja", "src":"fruit.mp3"}
+    "levels":[
+        {
+            "difficulty":"Retro",
+            "contents":[
+                {"title":"Super Mario Bros.", "src":"mario.mp3", "alt":["Mario"]},
+                {"title":"Duck Tales", "src":"ducktales.mp3"},
+                {"title":"Mortal Kombat", "src":"mk.mp3"},
+                {"title":"Super Smash Bros. Melee", "src":"smash.mp3", "alt":["Super Smash Bros","Super Smash Brothers","Smash Bros"]},
+                {"title":"Tetris", "src":"tetris.mp3"},
+                {"title":"Doom", "src":"doom.mp3"},
+                {"title":"Sonic", "src":"sonic.mp3", "alt":["Sonic the hedgehog"]},
+                {"title":"Pokémon", "src":"pokemon.mp3", "alt":["Pokemon","Pokemon Red","Pokemon Blue","Pokemon Red & Blue","Pokemon Red and Blue"]}
+            ]
+        },
+        {
+            "difficulty":"Easy",
+            "contents":[
+                {"title":"Minecraft", "src":"minecraft.mp3"},
+                {"title":"Halo 3", "src":"halo.mp3"},
+                {"title":"Plants vs. Zombies", "src":"pvz.mp3", "alt":["Plants v Zombies","Plants vs Zombies","Plants versus Zombies"]},
+                {"title":"Undertale", "src":"undertale.mp3"},
+                {"title":"Persona 5", "src":"persona.mp3"},
+                {"title":"Overwatch", "src":"overwatch.mp3"},
+                {"title":"CS:GO", "src":"csgo.mp3", "alt":["CS", "Counter Strike", "CSGO", "CS GO", "Counter Strike Global Offensive"]},
+                {"title":"Stardew Valley", "src":"stardew.mp3"},
+                {"title":"Skyrim", "src":"skyrim.mp3", "alt":["Elder Scrolls V", "Elder Scrolls 5"]},
+                {"title":"Team Fortress 2", "src":"fortress.mp3", "alt":["TF2"]},
+                {"title":"Papers Please", "src":"papers.mp3"},
+                {"title":"Angry Birds", "src":"angrybirds.mp3"},
+                {"title":"GTA: San Andreas", "src":"gtasa.mp3", "alt":["GTA San Andreas", "Grand Theft Auto: San Andreas"]},
+                {"title":"Kingdom Hearts", "src":"kingdomhearts.mp3"}
+            ]
+        },
+        {
+            "difficulty":"Medium",
+            "contents":[
+                {"title":"Hotline Miami 2", "src":"hotline.mp3", "alt":["Hotline Miami 2: Wrong Number"]},
+                {"title":"Cuphead", "src":"cuphead.mp3"},
+                {"title":"Dead By Daylight", "src":"dbd.mp3", "alt":["DBD"]},
+                {"title":"Spider Man 2", "src":"spiderman2.mp3", "alt":["Spiderman", "Spiderman 2"]},
+                {"title":"Apex Legends", "src":"apex.mp3"},
+                {"title":"Portal 2", "src":"portal2.mp3"}
+            ]
+        },
+        {
+            "difficulty":"Hard",
+            "contents":[
+                {"title":"Fruit Ninja", "src":"fruit.mp3"},
+                {"title":"Fallout 3", "src":"fallout.mp3"},
+                {"title":"Need for Speed: Hot Pursuit", "src":"nfshp.mp3", "alt":["Need for speed", "Hot persuit"]},
+                {"title":"Rainbow 6: Siege", "src":"r6.mp3", "alt":["Rainbow 6", "Rainbow 6 Siege"]},
+                {"title":"World's Hardest Game", "src":"worldshardestgame.mp3", "alt":["Worlds Hardest Game", "Hardest Game Ever", "The worlds hardest game", "The world's hardest game"]},
+                {"title":"Crysis 3", "src":"crysis.mp3"}
+            ]
+        }
     ]
 }
