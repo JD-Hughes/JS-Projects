@@ -86,6 +86,13 @@ function fetchJSON() {
                 idCounter++;
             }
             document.getElementById("main").appendChild(newTitle);
+            if (jsonFile[j]['difficulty'].includes("Zionos")) {
+                var weebMan = document.createElement("h2")
+                weebMan.style.fontSize = "20px";
+                weebMan.style.marginTop = "0";
+                weebMan.innerText = "(what a fuckin weeb)";
+                document.getElementById("main").appendChild(weebMan);
+            }
             document.getElementById("main").appendChild(newDiv);
             audiojs.events.ready(function () {
                 var as = audiojs.createAll();
