@@ -26,12 +26,12 @@ var JSONBingo = {"squares": [
 	{"square": "Says 'Omar'"},
 	{"square": "Talks about Wales"},
 	{"square": "Needs help with computer"},
-	{"square": "Gives 'helpful advide' but is actually no help"},
+	{"square": "Gives 'helpful advice' but is actually no help"},
 	{"square": "Unintentional racism"},
 	{"square": "Talks about alcohol or the pub"},
 	{"square": "Sexist"},
 	{"square": "'Back in my day'"},
-	{"square": ""},
-	{"square": ""}
+	{"square": "Has a problem with the whiteboard"},
+	{"square": "Asks if he is in the right lesson"}
     ]
 };
