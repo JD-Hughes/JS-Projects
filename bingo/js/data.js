@@ -28,9 +28,9 @@ var JSONBingo = {"squares": [
 	{"square": "Needs help with computer"},
 	{"square": "Gives 'helpful advide' but is actually no help"},
 	{"square": "Unintentional racism"},
-	{"square": ""},
-	{"square": ""},
-	{"square": ""},
+	{"square": "Talks about alcohol or the pub"},
+	{"square": "Sexist"},
+	{"square": "'Back in my day'"},
 	{"square": ""},
 	{"square": ""}
     ]
