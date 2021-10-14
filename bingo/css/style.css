@@ -11,9 +11,9 @@
 }
 
 body {
-	background-color: #a1a1a1;
+	background-color: #082732;
 	background-image: url('../img/red_texture.png');
-	font-family: "BodoniSvtyTwoOSITCTT-Bold", "Georgia", serif;
+	font-family: sans-serif;
 	text-rendering: optimizeLegibility;
 }
 
@@ -29,9 +29,8 @@ body {
 	display: block;
 	float: left;
 	width: 600px;
-	color: #000000;
+	color: #74ebeb;
 	opacity: 0.75;
-	text-shadow: 0px 1px 0px #e1e1e1, 0px -1px 0px #313131;
    	background-color: none;
    	text-align: center;
 	font-size: 2.8em;
@@ -63,7 +62,6 @@ body {
 	width: 640px;
 	background-color: #fff;
 	margin-bottom: 10px;
-	box-shadow: 0px 3px #919191;
 }
 
 .square, .freesquare {
