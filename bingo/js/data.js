@@ -1,6 +1,6 @@
 var headerText = "Bingo";
 
-var footerText = "GLHF";
+var footerText = "Be the first person to get 4 in a row, column or diagonal";
 
 var winText = "Winner";
 
