@@ -32,6 +32,8 @@ var JSONBingo = {"squares": [
 	{"square": "Sexist"},
 	{"square": "'Back in my day'"},
 	{"square": "Has a problem with the whiteboard"},
+	{"square": "Gets someone's name wrong"},
+	{"square": "Shit talks another teacher"},
 	{"square": "Asks if he is in the right lesson"}
     ]
 };
