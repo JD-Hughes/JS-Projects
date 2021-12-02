@@ -25,7 +25,7 @@ var JSONBingo = {"squares": [
 	{"square": "Incorrect calculation"},
 	{"square": "Picks on Omar"},
 	{"square": "Talks about Wales"},
-	{"square": "Needs help with computer"},
+	{"square": "Has a problem with technology"},
 	{"square": "Gives 'helpful advice' but is actually no help"},
 	{"square": "Unintentional racism"},
 	{"square": "Talks about alcohol or the pub"},
@@ -37,6 +37,8 @@ var JSONBingo = {"squares": [
 	{"square": "Obviously lets people cheat"},
 	{"square": "'Not my area of expertise'"},
 	{"square": "Kicks Kingstone out of tutorial"},
+	{"square": "'Hi folks'"},
+	{"square": "Threatens to report us to our employers"},
 	{"square": "Asks if he is in the right lesson"}
     ]
 };
